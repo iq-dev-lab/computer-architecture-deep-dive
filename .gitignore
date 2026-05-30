@@ -1,0 +1,72 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.swp
+
+# Build artifacts (C/C++)
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+a.out
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile.cmake
+cmake_install.cmake
+
+# Assembly / debug intermediate
+*.s
+*.S.tmp
+*.ll
+*.bc
+*.dwo
+*.pdb
+
+# perf / profiling output
+perf.data
+perf.data.old
+perf.data.*
+*.perf
+flamegraph.svg
+flamegraph.html
+out.perf-folded
+
+# valgrind / cachegrind
+cachegrind.out.*
+callgrind.out.*
+massif.out.*
+vgcore.*
+
+# likwid / hwloc
+*.likwid
+likwid_*.txt
+
+# Google Benchmark output
+benchmark_result.json
+*.benchmark.txt
+
+# Python (helper scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs / measurements
+*.log
+results/
+measurements/
